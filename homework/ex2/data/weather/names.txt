@@ -1,0 +1,107 @@
+Station code
+Station name
+Year
+Month
+Day
+Hour
+Cloud base height CL CM encrypted [code]
+Measurement status HPOD
+Lower cloud base height  [m]
+Measurement status HPON
+Higher cloud base height [m]
+Measurement status HPOW
+Cloud base height text [description]
+Instrument measurement 1 (lower) [P]
+Instrument measurement 2 (higher) [P]
+Visibility [code]
+Measurement status WID
+Operator visibility [m]
+Measurement status WIDO
+Automatic visibility [m]
+Measurement status WIDA
+Cloud cover [oktas]
+Measurement status NOG
+Wind direction  [°]
+Measurement status KRWR
+Wind speed  [m/s]
+Measurement status FWR
+Wind gust  [m/s]
+Measurement status PORW
+Air Temperature [°C]
+Measurement status TEMP
+Wet-bulb temperature [°C]
+Measurement status TTZW
+Ventilation index [W/N]
+Ice index [L/W]
+Vapour pressure [hPa]
+Measurement status CPW
+Relative humidity [%]
+Measurement status WLGW
+Dew point [°C]
+Measurement status TPTR
+Surface pressure [hPa]
+Measurement status PPPS
+Mean sea-level pressure [hPa]
+Measurement status PPPM
+Trend characteristics [code]
+Trend value [value]
+Measurement status APP
+Precipitation past 6 hours [mm]
+Measurement status WO6G
+Type of precipitation past 6 hours [code]
+Measurement status ROPT
+Current weather [code]
+Past weather [code]
+Low cloudiness [oktas]
+Measurement status CLCM
+Clouds CL [code]
+Measurement status CHCL
+Clouds CL text
+Clouds CM [code]
+Measurement status CHCM
+Clouds CM text
+Clouds CH [code]
+Measurement status CHCH
+Clouds CH text
+Ground condition [code]
+Measurement status SGRN
+Saturation deficit [hPa]
+Measurement status DEFI
+Sunshine duration
+Measurement status USLN
+Occurrence of dew [0/1]
+Measurement status ROSW
+Maximum gust per period WW [m/s]
+Measurement status PORK
+Hour of occurrence of the gust
+Minute of occurrence of the gust
+Ground temperature -5 [°C]
+Measurement status TG05
+Ground temperature -10 [°C]
+Measurement status TG10
+Ground temperature -20 [°C]
+Measurement status TG20
+Ground temperature -50 [°C]
+Measurement status TG50
+Ground temperature -100 [°C]
+Measurement status TG100
+Minimum temperature past 12 hours [°C]
+Measurement status TMIN
+Maximum temperature past 12 hours [°C]
+Measurement status TMAX
+Minimum ground temperature past 12 hours
+Measurement status TGMI
+Snow water equivalent [mm/cm]
+Measurement status RWSN
+Snow cover height [cm]
+Measurement status PKSN
+Freshly fallen snow cover height [cm]
+Measurement status HSS
+Snow cover height in the plot [cm]
+Measurement status GRSN
+Snow type [code]
+Shape of the cover [code]
+Sample height [cm]
+Measurement status HPRO
+Sample weight [g]
+Measurement status CIPR

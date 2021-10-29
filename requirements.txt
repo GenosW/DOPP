@@ -1,0 +1,6 @@
+bash-kernel
+jupyterlab
+matplotlib
+numpy
+pandas
+seaborn

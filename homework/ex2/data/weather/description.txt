@@ -1,0 +1,8 @@
+Measurement status "8" means no measurement
+Measurement status "9" means no phenomenon
+
+For the field "Snow cover height" (PKSN) the coded values are used:
+997 - less than 0.5 cm
+998 - discontinuous
+999 - not possible to measure
+For the "Sunshine duration" field (USLN) by March 2015, the measurement should be moved by -1 hour (e.g. from 12 o'clock to 11 o'clock).
