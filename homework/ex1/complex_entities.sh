@@ -18,7 +18,7 @@
 # Part 3:
 # The second list is then filtered for only those entities found in part 1 and the top 2 are printed.
 # This has to be done since often only the first occurence of a 2 word entity (e.g. 'Falsche Schildkröte') is capitalized properly.
-grep -f <( cat alice_tok_de.txt | grep -vxf stopwords_de.txt - | sed 's/^$/@/' | tr '\n' ' ' | sed 's/ @ /\n\n/g' | cut -d' ' -f2- | grep -oE '[A-ZÄÖÜ][a-zäöüß]+ ([A-ZÄÖÜ][a-zäöüß]+)' | tr [:upper:] [:lower:] | sort | uniq | sort ) <( cat alice_tok_de.txt | grep -vxf stopwords_de.txt - | sed 's/^$/@/' | tr '\n' ' ' | sed 's/ @ /\n\n/g' | cut -d' ' -f2- | grep -oE '[A-zÄÖÜäöüß]+ ([A-ZÄÖÜ][a-zäöüß]+)' | tr [:upper:] [:lower:] | sort | uniq -c | sort -nr ) | head -n20
+grep -f <( cat alice_tok_de.txt | grep -vxf stopwords_de.txt - | sed 's/^$/@/' | tr '\n' ' ' | sed 's/ @ /\n\n/g' | cut -d' ' -f2- | grep -oE '([A-ZÄÖÜ][a-zäöüß]+) ([A-ZÄÖÜ][a-zäöüß]+)' | tr [:upper:] [:lower:] | sort | uniq | sort ) <( cat alice_tok_de.txt | grep -vxf stopwords_de.txt - | sed 's/^$/@/' | tr '\n' ' ' | sed 's/ @ /\n\n/g' | cut -d' ' -f2- | grep -oE '[A-Za-zÄÖÜäöüß]+ ([A-ZÄÖÜ][a-zäöüß]+)' | tr [:upper:] [:lower:] | sort | uniq -c | sort -nr ) | head -n20
 
 # grep command used twice:
 # grep -vxf:
